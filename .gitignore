@@ -1,0 +1,70 @@
+# Общие настройки для операционных систем
+.DS_Store
+Thumbs.db
+
+# Системные файлы IDE
+.idea/
+*.iml
+
+# Скомпилированные файлы и каталоги для Java
+/out/
+/target/
+*.class
+
+# Лог-файлы
+*.log
+
+# IntelliJ IDEA конфигурационные файлы
+/.idea/**
+!.idea/vcs.xml
+!.idea/modules.xml
+!.idea/runConfigurations.xml
+
+# Настройки пользователя
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/shelf
+
+# Файлы сборки
+*.jar
+*.war
+*.ear
+
+# Настройки Maven
+*.mvn/
+!pom.xml
+
+# Настройки Gradle
+.gradle/
+/build/
+/.gradle/
+.gradle-cache/
+*.gradle
+!gradle-wrapper.properties
+
+# Файлы библиотеки
+*.jar
+*.war
+*.ear
+
+# Настройки тестирования
+/test-results/
+**/test-output/
+!**/src/**/test/
+
+# Файлы Node.js (если используется)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Секретные файлы
+*.env
+.env.local
+.env.*.local
+
+# Другие кэш и временные файлы
+*.swp
+*~
