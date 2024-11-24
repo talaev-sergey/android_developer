@@ -17,7 +17,6 @@ public class Hockeyplayer extends Sportsman {
         super(name, team, age);
     }
 
-
     @Override
     public void performAction() {
         System.out.println("Забил шайбу!");
