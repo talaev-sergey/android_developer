@@ -13,19 +13,8 @@
  **/
 public class Skier extends Sportsman {
 
-    //    Скорость бега лыжника
-    private int Skier;
-
     public Skier(String name, String team, int age) {
         super(name, team, age);
-    }
-
-    public int getSkier() {
-        return Skier;
-    }
-
-    public void setSkier(int skier) {
-        Skier = skier;
     }
 
     @Override

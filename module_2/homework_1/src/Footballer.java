@@ -13,19 +13,8 @@
  **/
 public class Footballer extends Sportsman {
 
-    // Кол-во голов в сезоне
-    private int seasonGoals;
-
     public Footballer(String name, String team, int age) {
         super(name, team, age);
-    }
-
-    public int getSeasonGoals() {
-        return seasonGoals;
-    }
-
-    public void setSeasonGoals(int seasonGoals) {
-        this.seasonGoals = seasonGoals;
     }
 
     @Override

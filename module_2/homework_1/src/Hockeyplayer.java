@@ -13,20 +13,10 @@
  **/
 public class Hockeyplayer extends Sportsman {
 
-    //Номер в команде
-    private int squadNumber;
-
     public Hockeyplayer(String name, String team, int age) {
         super(name, team, age);
     }
 
-    public int getSquadNumber() {
-        return squadNumber;
-    }
-
-    public void setSquadNumber(int squadNumber) {
-        this.squadNumber = squadNumber;
-    }
 
     @Override
     public void performAction() {
