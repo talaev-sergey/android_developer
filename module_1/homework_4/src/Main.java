@@ -22,7 +22,7 @@ public class Main {
                 new Gamer("Васин", false),
                 new Gamer("Иванов", false),
         };
-        System.out.println("Находяться в игре :");
+        System.out.println("Находятся в игре :");
         for (Gamer gamer : gamers) {
             if (gamer.isActive()) {
                 System.out.println(gamer.getNickname());
