@@ -21,8 +21,7 @@ public class Main {
 
     // 2 задание
     static void containsDigits(String text) throws Exception {
-        int length = text.length();
-        for (int i = 0; i < length; i++) {
+        for (int i = 0; i < text.length(); i++) {
             if (Character.isDigit(text.charAt(i)))
                 throw new Exception("В строке имеется цифра : " + text.charAt(i));
         }
