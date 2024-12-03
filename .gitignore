@@ -68,3 +68,4 @@ yarn-error.log*
 # Другие кэш и временные файлы
 *.swp
 *~
+cache.sql*
