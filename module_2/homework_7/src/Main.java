@@ -47,15 +47,15 @@ public class Main {
 
         // 2 задание
         int[] arrayInt = {23, 4, 56, 7, 0, 43, 46, 123, 45, 6, 1};
-        TreeSet<Integer> resultHashSet = new TreeSet<>();
+        TreeSet<Integer> resultTreeSet = new TreeSet<>();
 
         for (int i : arrayInt) {
             if (i > 15 && i % 2 == 0) {
-                resultHashSet.add(i);
-            } else resultHashSet.add(i / 2);
+                resultTreeSet.add(i);
+            } else resultTreeSet.add(i / 2);
         }
 
-        System.out.println("2 задание : " + resultHashSet);
+        System.out.println("2 задание : " + resultTreeSet);
 
     }
 }
