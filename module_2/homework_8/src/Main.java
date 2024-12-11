@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -25,10 +26,10 @@ public class Main {
 
     static HashMap<Integer, String> sortHashMap(HashMap<Integer, String> hashMap) {
         HashMap<Integer, String> resultHashMap = new HashMap<>();
-        int key = 0;
-        for (String s : hashMap.values()) {
-            if (s.length() > 3) resultHashMap.put(key, s);
-            key++;
+        for (Map.Entry<Integer, String> entry : hashMap.entrySet()) {
+            if (entry.getValue().length() > 3) {
+                resultHashMap.put(entry.getKey(), entry.getValue());
+            }
         }
         return resultHashMap;
     }
