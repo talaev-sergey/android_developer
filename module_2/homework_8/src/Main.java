@@ -49,6 +49,6 @@ public class Main {
         for (int j = 0; j < arrayWords.length; j++) {
             mapWords.put(j, arrayWords[j]);
         }
-        System.out.println("2 задание : " + sortHashMap(mapWords).values());
+        System.out.println("2 задание : " + sortHashMap(mapWords));
     }
 }
