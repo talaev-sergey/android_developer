@@ -37,22 +37,22 @@ public class Main {
         // 2 задание
         Concationble simpleConcat = new Concationble() {
             @Override
-            public String concat(String s, String s2) {
-                return s + s2;
+            public String concat(String strA, String strB) {
+                return strA + strB;
             }
         };
 
         Concationble concatWithSpace = new Concationble() {
             @Override
-            public String concat(String s, String s2) {
-                return s + " " + s2;
+            public String concat(String strA, String strB) {
+                return strA + " " + strB;
             }
         };
 
         Concationble concatWithHyphen = new Concationble() {
             @Override
-            public String concat(String s, String s2) {
-                return s + "-" + s2;
+            public String concat(String strA, String strB) {
+                return strA + "-" + strB;
             }
         };
 
