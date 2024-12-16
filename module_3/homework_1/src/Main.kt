@@ -22,7 +22,7 @@ fun main() {
     val isStudent: Boolean = false
     val salary: Double = 100_000.0
     println(
-        "Имя: " + name + " | " + age + " лет | Студент: " + isStudent + " | " +
-                "Зарплата: " + salary
+        "Name: " + name + " | Age: " + age + " | Is Student: " + isStudent +
+                " | Salary: " + salary
     )
 }
