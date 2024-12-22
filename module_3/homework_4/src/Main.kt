@@ -47,8 +47,8 @@ fun main() {
         in 0..5 -> println("Раннее утро")
         in 6..11 -> println("Утро")
         in 12..17 -> println("День")
-        in 18..20 -> println("Вечер")
-        in 19..23 -> println("Поздний вечер")
+        in 18..19 -> println("Вечер")
+        in 20..23 -> println("Поздний вечер")
         else -> println("Ошибка: неверное время суток")
     }
 
