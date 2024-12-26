@@ -60,7 +60,7 @@ fun main() {
     // 5 задание
     println("5 задание :")
     var number: Int = 0
-    while (iterator < 19) {
+    while (number < 19) {
         number++
         if (number % 4 == 0) print("${number * 2} ")
     }
