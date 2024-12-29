@@ -50,9 +50,9 @@ fun main() {
         print("$iteratorNum ")
         iteratorNum *= 2
     }
-    println()
+
     // 5 задание
-    print("5 задание: ")
+    print("\n5 задание: ")
     var n = 20
     while (n > 0) {
         if (n % 2 == 0) print("$n ")
